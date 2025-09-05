@@ -1,5 +1,5 @@
 import { StyleSheet, TextInput, View, Text, TouchableOpacity, Image , FlatList, ScrollView, Platform} from 'react-native'
-import { useState } from 'react';
+import { useState} from 'react';
 import Ionicons from '@expo/vector-icons/Ionicons';
 import menuData from '../data/menuData';
 import menuCategories from '../data/menuCaterories';
@@ -28,7 +28,7 @@ export default function Home() {
           </View>
           <ScrollView>
             <View style={{ flexDirection: "row", justifyContent: "space-between", marginTop: 20, marginBottom: 10 }}>
-            <Text style={{ fontSize: 18, fontWeight: "600" }}>Our Menu</Text>
+            {/* <Text style={{ fontSize: 18, fontWeight: "600" }}>Our Menu</Text> */}
             <Text style={{ color: "#f59e0b" }}>View more</Text>
           </View>
             <FlatList
